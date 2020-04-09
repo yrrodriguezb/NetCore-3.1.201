@@ -15,3 +15,9 @@
     5. Excepciones y consultas diferidas
     6. Operadores de transmisión
     7. Consultando infinito
+4. Filtrar, Ordenar y Proyectar
+    1. Procesar archivos con Linq
+    2. Filtrar con Where y Take
+    3. Cuantificacion de datos con Any, All y Contains
+    4. Proyecccion de datos con Select
+    5. Acoplar datos con SelectMany
