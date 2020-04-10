@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Queries", "3. Queries\Queri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cars", "4. Cars\Cars.csproj", "{913F5E9C-862C-420D-B485-F28FBB42ACD5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarsV2", "5. CarsV2\CarsV2.csproj", "{18B14792-E591-4708-97B1-3D8DCFFCB5CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,5 +74,17 @@ Global
 		{913F5E9C-862C-420D-B485-F28FBB42ACD5}.Release|x64.Build.0 = Release|Any CPU
 		{913F5E9C-862C-420D-B485-F28FBB42ACD5}.Release|x86.ActiveCfg = Release|Any CPU
 		{913F5E9C-862C-420D-B485-F28FBB42ACD5}.Release|x86.Build.0 = Release|Any CPU
+		{18B14792-E591-4708-97B1-3D8DCFFCB5CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18B14792-E591-4708-97B1-3D8DCFFCB5CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18B14792-E591-4708-97B1-3D8DCFFCB5CE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{18B14792-E591-4708-97B1-3D8DCFFCB5CE}.Debug|x64.Build.0 = Debug|Any CPU
+		{18B14792-E591-4708-97B1-3D8DCFFCB5CE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{18B14792-E591-4708-97B1-3D8DCFFCB5CE}.Debug|x86.Build.0 = Debug|Any CPU
+		{18B14792-E591-4708-97B1-3D8DCFFCB5CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18B14792-E591-4708-97B1-3D8DCFFCB5CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18B14792-E591-4708-97B1-3D8DCFFCB5CE}.Release|x64.ActiveCfg = Release|Any CPU
+		{18B14792-E591-4708-97B1-3D8DCFFCB5CE}.Release|x64.Build.0 = Release|Any CPU
+		{18B14792-E591-4708-97B1-3D8DCFFCB5CE}.Release|x86.ActiveCfg = Release|Any CPU
+		{18B14792-E591-4708-97B1-3D8DCFFCB5CE}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
