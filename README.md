@@ -35,3 +35,15 @@
     3. Construcción funcional con menos código
     4. Cargar y consultar XML con Linq
     5. Trabajar con espacios de nombres XML
+7. **Linq y Entity Framework**
+    1. Configurar Entity Framework
+    2. Insertar datos en una nueva base de datos
+    3. Escribr una consulta básica en Linq
+    4. Trabajar con IQueryables y Arboles de Expresión (Expression Trees)
+    5. Advertencias y trampas de Linq remoto
+    6. Consulta avanzada en Linq
+
+    ``` bash
+        dotnet ef migrations add "Migracion Modelo de Carro" -c Context
+        dotnet ef database update -c Context
+    ```
