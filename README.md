@@ -29,3 +29,9 @@
     5. Agrupación de datos 
     6. Uso de GroupJoin para datos jerárquicos
     7. Agrupacion eficiente con método de extensión
+6. **Linq a XML**
+    1. System.Xml.Linq
+    2. Creación de XML orientado a objectos
+    3. Construcción funcional con menos código
+    4. Cargar y consultar XML con Linq
+    5. Trabajar con espacios de nombres XML
