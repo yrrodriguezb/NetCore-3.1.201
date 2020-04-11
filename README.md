@@ -47,3 +47,13 @@
         dotnet ef migrations add "Migracion Modelo de Carro" -c Context
         dotnet ef database update -c Context
     ```
+
+
+### Generics C#
+
+1. Introducción
+    1. El problema del búfer
+    2. La solucion del objeto
+    3. Parametros de tipo genérico
+    4. Terminología genérica
+    5. Pruebas de la solución

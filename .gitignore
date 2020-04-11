@@ -39,3 +39,7 @@ msbuild.wrn
 
 # Database SQLite
 Cars.db
+
+# Test Results
+
+*/**/TestResults
