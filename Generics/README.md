@@ -19,5 +19,12 @@
 
 3. **Clases e Interfaces genéricas**
     1. IEnumerable<T>
-    2. Interfaces de colleción
-    3. Limpiar colleción, implmentado genéricos
+    2. Interfaces de coleción
+    3. Limpiar coleción, implmentado genéricos
+
+4. **Métodos y Delegados genéricos**
+    1. Métodos Genéricos
+    2. Métodos de Extensión
+    3. Delegados Genéricos
+    4. Delegados Cotidianos
+    5. Eventos y Genéricos
