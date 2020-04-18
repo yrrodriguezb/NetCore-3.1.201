@@ -16,3 +16,8 @@
     7. Dictionary   => Mapa de cosas
     8. Sort  => Orden de cosas
     9. Pruebas
+
+3. **Clases e Interfaces genéricas**
+    1. IEnumerable<T>
+    2. Interfaces de colleción
+    3. Limpiar colleción, implmentado genéricos
