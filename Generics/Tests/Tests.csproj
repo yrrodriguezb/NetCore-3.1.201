@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\1. DataStructures\DataStructures.csproj" />
+    <ProjectReference Include="..\6. Reflection\Reflection.csproj" />
   </ItemGroup>
 
 </Project>

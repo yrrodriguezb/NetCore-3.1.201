@@ -49,3 +49,12 @@
         # Actualizar la base de datos de acuerdo con la migración 
         dotnet ef database update -c Context
     ```
+
+6. **Genéricos y Reflección**
+    1. Instanciando tipod genéricos
+    2. Invocación de tipos genéricos
+    3. Construyendo tu propio contenedor
+    4. Resolución de tipo simple
+    5. Trabajando con constructores
+    6. Trabajando con genéricos independientes
+    
