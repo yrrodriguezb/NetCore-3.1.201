@@ -51,10 +51,15 @@
     ```
 
 6. **Genéricos y Reflección**
-    1. Instanciando tipod genéricos
+    1. Instanciando tipos genéricos
     2. Invocación de tipos genéricos
     3. Construyendo tu propio contenedor
     4. Resolución de tipo simple
     5. Trabajando con constructores
     6. Trabajando con genéricos independientes
+
+7. **Tips**
+    1. Genéricos y Enums
+    2. Usar Tipos Base (Base Types)
+    3. Genéricos y Estático
     

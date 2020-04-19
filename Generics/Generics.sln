@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Query", "5. Query\Query.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection", "6. Reflection\Reflection.csproj", "{D9FB9D40-AE00-4C6C-9D5A-1F9B9D868857}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tips", "7. Tips\Tips.csproj", "{552412B3-9274-4FF9-AF50-4CE50CA89F1A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -114,5 +116,17 @@ Global
 		{D9FB9D40-AE00-4C6C-9D5A-1F9B9D868857}.Release|x64.Build.0 = Release|Any CPU
 		{D9FB9D40-AE00-4C6C-9D5A-1F9B9D868857}.Release|x86.ActiveCfg = Release|Any CPU
 		{D9FB9D40-AE00-4C6C-9D5A-1F9B9D868857}.Release|x86.Build.0 = Release|Any CPU
+		{552412B3-9274-4FF9-AF50-4CE50CA89F1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{552412B3-9274-4FF9-AF50-4CE50CA89F1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{552412B3-9274-4FF9-AF50-4CE50CA89F1A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{552412B3-9274-4FF9-AF50-4CE50CA89F1A}.Debug|x64.Build.0 = Debug|Any CPU
+		{552412B3-9274-4FF9-AF50-4CE50CA89F1A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{552412B3-9274-4FF9-AF50-4CE50CA89F1A}.Debug|x86.Build.0 = Debug|Any CPU
+		{552412B3-9274-4FF9-AF50-4CE50CA89F1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{552412B3-9274-4FF9-AF50-4CE50CA89F1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{552412B3-9274-4FF9-AF50-4CE50CA89F1A}.Release|x64.ActiveCfg = Release|Any CPU
+		{552412B3-9274-4FF9-AF50-4CE50CA89F1A}.Release|x64.Build.0 = Release|Any CPU
+		{552412B3-9274-4FF9-AF50-4CE50CA89F1A}.Release|x86.ActiveCfg = Release|Any CPU
+		{552412B3-9274-4FF9-AF50-4CE50CA89F1A}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
