@@ -38,7 +38,7 @@ msbuild.wrn
 .vscode/
 
 # Database SQLite
-Cars.db
+*/**/*.db
 
 # Test Results
 
