@@ -28,3 +28,24 @@
     3. Delegados Genéricos
     4. Delegados Cotidianos
     5. Eventos y Genéricos
+
+5. **Restricciones, Covarianza y Contravarianza**
+    1. Modelo Objetos
+    2. Repositorios y Restricciones
+    3. Comprometerse y Consultar
+    4. Una restricción de interfaz
+    5. Covarianza
+    6. Contravarianza
+
+    ``` bash
+        # Comandos de ayuda:
+
+        # Agregar EF Core Tools
+        dotnet tool install --global dotnet-ef
+        
+        # Agregar una migración
+        dotnet ef migrations add "Migracion Inicial Empleados" -c Context
+
+        # Actualizar la base de datos de acuerdo con la migración 
+        dotnet ef database update -c Context
+    ```
