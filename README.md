@@ -2,5 +2,6 @@
 
 ### Temas vistos
 
-1. [Linq](Linq/README.md)
-2. [Generics](Generics/README.md)
+1. [Fundamentals](Fundamentals/README.md)
+2. [Linq](Linq/README.md)
+3. [Generics](Generics/README.md)

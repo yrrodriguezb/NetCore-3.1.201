@@ -43,3 +43,6 @@ msbuild.wrn
 # Test Results
 
 */**/TestResults
+
+# Files Text 
+Fundamentals/*.txt
