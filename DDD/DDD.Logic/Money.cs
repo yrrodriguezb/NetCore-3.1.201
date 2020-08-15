@@ -29,6 +29,10 @@ namespace DDD.Logic
             FiveDollarCount * 5 +
             TwentyDollarCount * 20;
              
+        public Money()
+        {
+            
+        }
 
         public Money(
             int oneCentCount,
@@ -36,7 +40,7 @@ namespace DDD.Logic
             int quaterCount,
             int oneDollarCount,
             int fiveDollarCount,
-            int twentyDollarCount)
+            int twentyDollarCount) : this()
         {
             if (oneCentCount < 0)
                 throw new InvalidOperationException();
@@ -113,6 +117,14 @@ namespace DDD.Logic
                 hashcode = (hashcode * 397) ^ TwentyDollarCount;
                 return hashcode;
             }
+        }
+
+        public override string ToString()
+        {
+            if (Amount < 1)
+                return "¢" + (Amount * 100).ToString("0");
+
+            return "$" + Amount.ToString("0.00");
         }
     }
 }

@@ -1,10 +1,11 @@
 ﻿using System;
+using NHibernate.Proxy;
 
 namespace DDD.Logic
 {
     public abstract class Entity
     {
-        public long Id { get; private set; }
+        public virtual long Id { get; protected set; }
 
         public override bool Equals(object obj)
         {
@@ -16,7 +17,7 @@ namespace DDD.Logic
             if (ReferenceEquals(this, null))
                 return true;
 
-            if (GetType() != other.GetType())
+            if (GetTypeReal() != other.GetTypeReal())
                 return false;
 
             if (Id == 0 || other.Id == 0)
@@ -45,6 +46,11 @@ namespace DDD.Logic
         public override int GetHashCode()
         {
             return (GetType().ToString() + Id).GetHashCode();
+        }
+
+        private Type GetTypeReal()
+        {
+            return NHibernateProxyHelper.GetClassWithoutInitializingProxy(this);
         }
     }
 }
